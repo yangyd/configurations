@@ -1,0 +1,16 @@
+"*":
+  editor:
+    fontFamily: "Consolas"
+    lineHeight: 1.25
+    scrollPastEnd: true
+    invisibles: {}
+    fontSize: 13
+  core:
+    themes: [
+      "atom-dark-ui"
+      "one-dark-syntax"
+    ]
+  "exception-reporting":
+    userId: "98d65503-35c0-b574-fbf0-388722666269"
+  welcome:
+    showOnStartup: false
