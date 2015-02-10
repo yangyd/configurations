@@ -1,0 +1,4 @@
+
+Host github.com
+  ProxyCommand nc -X 5 -x localhost:26515 %h %p
+
