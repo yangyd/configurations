@@ -68,6 +68,7 @@ alias gst='git status'
 alias gdf='git diff'
 alias here='cygpath -w `pwd`'
 alias djenv='source ~/.local/pyenv-django/bin/activate'
+alias torenv='source ~/.local/pyenv-tornado/bin/activate'
 
 # gvm_init="$HOME/.gvm/bin/gvm-init.sh"
 # [[ -s $gvm_init ]] && source $gvm_init

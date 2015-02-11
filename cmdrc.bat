@@ -5,7 +5,6 @@ set PATH=%USERPROFILE%\.local\bin;%SystemRoot%\system32;%SystemRoot%;%SystemRoot
 set PATH=%AppData%\Zeon\bin;%PATH%
 
 set PATH=%JAVA_HOME%\bin;%PATH%
-set PATH=%PATH%;C:\home\wamp\pgsql\bin
 
 :: set PATH=%PATH%;%SCALA_HOME%\bin
 :: set PATH=%PATH%;%M2_HOME%\bin
