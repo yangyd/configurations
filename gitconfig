@@ -12,4 +12,4 @@
 [url "https://github.com/"]
 
 [alias]
-	ll = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(green)(%ar)%C(reset)%C(yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'
+	ll = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(green)(%ar)%C(reset) %C(yellow)%an%C(reset)%C(cyan)%d%C(reset)%n''          %C(white)%s%C(reset)' --all
