@@ -1,1 +1,1 @@
-@C:\home\playground\vim\sbin_mingw\gvim.cmd %*
+@%USERPROFILE%\.local\apps\gvim-7.4.589\sbin\gvim.cmd %*
