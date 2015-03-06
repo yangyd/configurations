@@ -1,1 +1,1 @@
-@node %~dp0..\node_modules\grunt-cli\bin\grunt %*
+@%APPDATA%\npm\%~n0%~x0
