@@ -1,1 +1,1 @@
-@%APPDATA%\npm\%~n0%~x0
+@%APPDATA%\npm\%~n0%~x0 %*
