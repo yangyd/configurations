@@ -1,1 +1,1 @@
-@C:\home\wamp\node\node.exe %*
+@%APPDATA%\npm\%~n0.exe %*

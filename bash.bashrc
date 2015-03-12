@@ -63,12 +63,12 @@ export TEMP=$TMP
 export PATH=$HOME/bin:/usr/local/bin:/usr/bin
 # export PATH=$PATH:`cygpath --unix "$JAVA_HOME"`/bin
 
+export WORKON_HOME=$HOME/.venvs
+
 alias ll='ls -alh'
 alias gst='git status'
 alias gdf='git diff'
 alias here='cygpath -w `pwd`'
-alias djenv='source ~/.local/pyenv-django/bin/activate'
-alias torenv='source ~/.local/pyenv-tornado/bin/activate'
 
 # gvm_init="$HOME/.gvm/bin/gvm-init.sh"
 # [[ -s $gvm_init ]] && source $gvm_init
