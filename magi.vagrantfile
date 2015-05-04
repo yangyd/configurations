@@ -1,0 +1,28 @@
+# ex: ft=ruby
+
+Vagrant.configure(2) do |config|
+  config.vm.box = 'chef/fedora21'
+  config.ssh.insert_key = false
+
+  config.vm.define :casper do |casper|
+    casper.vm.hostname = 'casper'
+    casper.vm.network 'forwarded_port', guest: 22, host: 2001, auto_correct: true
+
+    # disable auto_config to avoid eth1 failure (the network works anyway)
+    # https://github.com/mitchellh/vagrant/issues/1777
+    casper.vm.network 'private_network', type: 'dhcp', auto_config: false
+  end
+
+  config.vm.define :balthazar do |balthazar|
+    balthazar.vm.hostname = 'balthazar'
+    balthazar.vm.network 'forwarded_port', guest: 22, host: 2002, auto_correct: true
+    balthazar.vm.network 'private_network', type: 'dhcp', auto_config: false
+  end
+
+  config.vm.define :melchior do |melchior|
+    melchior.vm.hostname = 'melchior'
+    melchior.vm.network 'forwarded_port', guest: 22, host: 2003, auto_correct: true
+    melchior.vm.network 'private_network', type: 'dhcp', auto_config: false
+  end
+end
+
