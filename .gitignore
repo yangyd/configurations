@@ -4,4 +4,5 @@
 /atom/dev
 /atom/.npm
 /atom/.node-gyp
+/sublime-Data-Packages-User/Package Control*
 

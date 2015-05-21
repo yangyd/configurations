@@ -69,6 +69,8 @@ alias ll='ls -alh'
 alias gst='git status'
 alias gdf='git diff'
 alias here='cygpath -w `pwd`'
+alias sc='sudo systemctl'
+alias dk='sudo docker'
 
 # gvm_init="$HOME/.gvm/bin/gvm-init.sh"
 # [[ -s $gvm_init ]] && source $gvm_init
