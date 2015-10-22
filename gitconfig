@@ -5,6 +5,7 @@
 	ui = true
 [core]
 	autocrlf = input
+	fileMode = false
 [push]
 	default = simple
 [url "git@github.com:"]

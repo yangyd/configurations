@@ -6,6 +6,9 @@ set PATH=%AppData%\Zeon\bin;%PATH%
 
 set PATH=%JAVA_HOME%\bin;%PATH%
 
+set PYTHON_HOME=C:\Program Files\Python 3.5
+set PATH=%PATH%;%PYTHON_HOME%;%PYTHON_HOME%\Scripts
+
 :: set PATH=%PATH%;%SCALA_HOME%\bin
 :: set PATH=%PATH%;%M2_HOME%\bin
 :: set PATH=C:\home\wamp\mingw64\bin;%PATH%

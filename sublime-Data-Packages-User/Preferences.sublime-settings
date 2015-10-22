@@ -2,12 +2,11 @@
 	"always_show_minimap_viewport": true,
 	"auto_complete_commit_on_tab": false,
 	"auto_indent": true,
-	"color_scheme": "Packages/Color Scheme - Default/IDLE.tmTheme",
+	"color_scheme": "Packages/Ant Color Scheme/ant.tmTheme",
 	"default_line_ending": "unix",
 	"detect_indentation": true,
 	"draw_minimap_border": true,
-	"font_face": "Ubuntu Mono",
-	"font_size": 12,
+	"font_face": "Courier Prime",
 	"ignored_packages":
 	[
 		"Vintage"

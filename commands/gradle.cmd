@@ -1,1 +1,1 @@
-@C:\home\wamp\gradle-2.2.1\bin\gradle.bat --info %*
+@C:\home\wamp\gradle-2.5\bin\gradle.bat --info %*
