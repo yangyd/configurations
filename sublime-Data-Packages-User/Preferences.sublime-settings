@@ -2,15 +2,11 @@
 	"always_show_minimap_viewport": true,
 	"auto_complete_commit_on_tab": false,
 	"auto_indent": true,
-	"color_scheme": "Packages/Ant Color Scheme/ant.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"default_line_ending": "unix",
 	"detect_indentation": true,
 	"draw_minimap_border": true,
-	"font_face": "Courier Prime",
-	"ignored_packages":
-	[
-		"Vintage"
-	],
+	"font_size": 12,
 	"indent_to_bracket": true,
 	"rulers":
 	[
@@ -22,6 +18,7 @@
 	"smart_indent": true,
 	"spell_check": false,
 	"tab_size": 2,
+	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,
 	"use_tab_stops": true,

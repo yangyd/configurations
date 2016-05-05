@@ -46,6 +46,8 @@
       "overlay": "command_palette"
     }
   },
+  { "keys": ["alt+o"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
+  { "keys": ["alt+0"], "command": "move_to", "args": {"to": "eol", "extend": false} },
   {
     "keys": [
       "alt+z"
