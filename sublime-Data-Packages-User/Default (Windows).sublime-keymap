@@ -2,14 +2,25 @@
   { "keys": ["ctrl+;"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
 
   { "keys": ["ctrl+l"], "command": "find_under_expand" },
+  { "keys": ["ctrl+shift+="], "command": "expand_selection", "args": {"to": "scope"} },
+
   { "keys": ["ctrl+d"], "command": "run_macro_file",
     "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
 
   { "keys": ["alt+o"], "command": "run_macro_file",
     "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
 
+  { "keys": ["alt+h"], "command": "move", "args": {"by": "characters", "forward": false} },
+  { "keys": ["alt+l"], "command": "move", "args": {"by": "characters", "forward": true} },
+  { "keys": ["alt+k"], "command": "move", "args": {"by": "lines", "forward": false} },
+  { "keys": ["alt+j"], "command": "move", "args": {"by": "lines", "forward": true} },
+
   { "keys": ["alt+9"], "command": "move_to", "args": {"to": "bol", "extend": false} },
   { "keys": ["alt+0"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+
+  { "keys": ["shift+tab"], "command": "unindent" },
+
+  { "keys": ["ctrl+r"], "command": "open_recently_closed_file", "args": {"current_project_only": false} },
 
   { "keys": ["alt+n"], "command": "auto_complete" },
   { "keys": ["alt+n"], "command": "replace_completion_with_auto_complete", "context":
